@@ -1,0 +1,6 @@
+package: github.com/rongfengliang/myshortiddemo
+import:
+- package: github.com/teris-io/shortid
+  version: ^1.0.0
+- package: github.com/miekg/dns
+  version: ^1.0.4
