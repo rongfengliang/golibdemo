@@ -18,7 +18,7 @@ func TimeServer() {
 			log.Print("error")
 			continue
 		}
-		handler(conn)
+		go handler(conn)
 	}
 }
 func handler(c net.Conn) {
